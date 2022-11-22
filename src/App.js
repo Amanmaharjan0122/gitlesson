@@ -1,7 +1,13 @@
-// import React from 'react'
-function App()  {
+import React from 'react'
+import Index from './component/main'
+import "./App.css"
+
+function App () {
   return (
-<h1>hello from branchtwo</h1>  )
+    <div>
+      <Index/>
+    </div>
+  )
 }
 
-export default App;
+export default App
