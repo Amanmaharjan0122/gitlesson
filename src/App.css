@@ -40,13 +40,24 @@
 
 }
 button{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-transform: capitalize;
-    height: 4rem;
-    width: 10rem;
+    /* height: 4rem; */
+    /* width: 10rem; */
     background:none;
     border-radius: 50px;
-    color: #FF757D;
+    /* height: 4rem; */
+    width: auto; padding: 5px 15px;
+    border-color: white;
+    color: white;
+    
+}
+
+button:hover{
+    background-color: white;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    color: black;
 }
 
 .hambagumenu{
@@ -85,6 +96,96 @@ button{
     font-size: 18px;
     font-family: arboria, sans-serif;
     color: #9691B3;
+    padding-top: 2rem;
 }
+
+
+.forbtn{
+    padding-top: 2rem;
+}
+
+@media (max-width:1024px) {
+   .nav-bar{
+    height: 5rem;
+   }
+  .logo{
+    height: 50%;
+  }
+  .side-div{
+    height: 50%;
+    padding-top: 6rem;
+    
+  }
+    
+}
+
+
+@media (max-width:842px) {
+    .logo{
+        /* height: 10rem; */
+        /* background-color: #F8F1EA; */
+        width: 50%;
+        height: 5rem;
+    }
+   .side-div{
+    margin-left: 30%;
+    padding-top: 4rem;
+    gap: 1rem;
+   }
+   
+button{
+    font-size: .5rem;
+    text-transform: capitalize;
+    /* height: 3rem; 
+     width: 10rem; */
+    /* background:none;
+    border-radius: 50px; */
+    /* height: 4rem; */
+    width: auto; padding: 5px 15px;
+    /* border-color: white; */
+    color: white;
+    
+}
+    }
+    
+
+
+
+
+ @media (min-width:768px) {
+    .section-two{
+        height: 60vh;
+        width: 60%;
+        /* background-color: aliceblue; */
+        margin: 0;
+        margin-top: 5rem;
+        margin-left: 20%;
+    }
+    .heading h1{
+        font-size: 3rem;
+    }
+  
+  
+} 
+@media (max-width:768px) {
+    .section-two{
+        height: 60vh;
+        width: 60%;
+        /* background-color: aliceblue; */
+        margin: 0;
+        margin-top: 5rem;
+        margin-left: 20%;
+    }
+    .heading h1{
+        font-size: 2rem;
+    }
+    .heading p{
+        font-size: 16px;
+    }
+    
+  
+} 
+
+
 
 
